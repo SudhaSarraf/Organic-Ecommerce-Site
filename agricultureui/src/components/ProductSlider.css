@@ -1,0 +1,150 @@
+/* ProductSlider.css */
+.slider-product-slider-container {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .slider-card-carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  .h2slider{
+    text-align: left;
+    margin-left: 60px; /* Adjust this margin as needed */
+    margin-top: 25px;
+  }
+
+  .h2new{
+    margin-left: 10px ;
+  }
+
+  .sleft{
+    margin-left: 50px;
+  }
+  .sright{
+    margin-right: 50px;
+  }
+  
+  .slider-carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .slider-carousel-arrow:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .slider-arrow-left {
+    left: 0;
+  }
+  
+  .slider-arrow-right {
+    right: 0;
+  }
+  
+  .slider-product-card-container {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .slider-product-card-wrapper {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .slider-product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+    margin: 0 10px;
+    margin-left: 15px;
+  }
+  
+  .slider-product-card.active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Highlight the active card with box shadow */
+  }
+  
+  .slider-product-image img {
+    /* max-width: 100%; */
+    width: 140px;
+    height: 80px; /* Set the desired height for all images */
+    object-fit: cover;
+    margin-bottom: 20px; /* Maintain aspect ratio and fit within the specified dimensions */
+  }
+  
+  .slider-product-info {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .slider-product-name {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .slider-product-category,
+  .slider-product-price {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  
+  .slider-add-to-cart-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slider-add-to-cart-btn:hover {
+    background-color: #45a049;
+  }
+
+  /* for reviews */
+  .slider-page{
+    margin: 40px;
+    background-color: rgb(236, 235, 235);
+    padding: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    /* margin-bottom: 60px; */
+  }
+
+  .review{
+    margin: 20px;
+  }
+
+  .star-icon{
+    color: rgb(237, 178, 28) !important;
+  }
+  
+  

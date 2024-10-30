@@ -1,0 +1,64 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.my-label{
+  font-size: 16px;
+  font-weight: bold;
+}
+.my-btn-aqua
+{
+  background-color: blue important;
+  color: white !important;
+}
+
+
+.form_container{
+  margin-top: 20px !important;
+  max-width: 500px !important;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: skyblue !important;
+  border-radius: 5px;
+}
+
+:root{
+  --mainDark: #87CEED;
+  --mainGray: #4C63D6;
+  --mainLightGray: rgba(172, 172, 172);
+  --mainWhite: #fff;
+  --mainBlue: #007bff;
+}
+
+.my-btn{
+  text-decoration: none !important;
+  color: white !important;
+  margin-left: 950px;
+  /* style={{textDecoration: 'none', color: 'white'}} */
+}
+
+.delete{
+  margin-left: 10px;
+}
+
+.para{
+  font-size: 22px !important;
+  font-weight: bold;
+}
+
+.cart-icon{
+  margin-left: 20px;
+}
+
+

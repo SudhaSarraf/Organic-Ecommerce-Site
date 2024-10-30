@@ -1,0 +1,205 @@
+/* Fixed arrow styles */
+.fixed-arrow-container {
+  position: fixed;
+  top: 50%; /* Adjust as needed */
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.scroll-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  color: gray;
+  transition: background-color 0.3s;
+  font-size: 24px;
+  border-radius: 50%;
+}
+
+.scroll-arrow-left {
+  left: 10px; /* Adjust as needed */
+}
+
+.scroll-arrow-right {
+  right: 10px; /* Adjust as needed */
+}/* dashboard.css */
+/* Add your other styles */
+
+/* html, body {
+  overflow: hidden;
+}  */
+
+.shop-title-container {
+  text-align: left;
+  margin-left: 40px; /* Adjust this margin as needed */
+  margin-top: 25px;
+}
+
+.shop-title {
+  margin-top: 20px;
+  padding-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.collection{
+  background-color: rgb(245, 243, 234);
+  /* margin-bottom: 20px; */
+}
+
+
+.scroll-container {
+  display: flex;
+  align-items: center;
+}
+
+.scroll-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  /* background-color: #f0f0f0; */
+  cursor: pointer;
+  color: gray;
+  transition: background-color 0.3s;
+  font-size: 40px; /* Increase the font size for a bigger arrow */
+}
+
+/* .scroll-arrow:hover {
+  background-color: skyblue;
+} */
+
+.scroll-arrow-left {
+  border-radius: 50% 0 0 50%;
+  margin-right: 45px;
+  margin-left: 30px;
+}
+
+.scroll-arrow-right {
+  border-radius: 0 50% 50% 0;
+  margin-left: 45px;
+  margin-right: 30px;
+}
+
+.circular-card-container {
+  display: flex;
+  gap: 60px;
+  overflow: hidden;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.circular-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #f7f0f0;
+  text-decoration: none;
+  color: #333;
+  overflow: hidden; /* Hide any overflowing content */
+  position: relative;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%; /* Maintain aspect ratio and cover the available space */
+}
+
+.card-category {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card-category-link {
+  /* position: absolute; */
+  bottom: 5px; /* Adjust as needed */
+  left: 0; /* Align category name to the left */
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.category-link {
+  text-decoration: none; /* Remove underline */
+}
+
+/* Rest of dashboard code is here */
+.welcomeMessage{
+  margin: 40px;
+  background-color: rgb(245, 243, 234);
+  padding: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+/* imageSlider.css */
+.slider-container {
+  width: 100%;
+  max-height: 550px; /* Adjust the height as needed */
+  overflow: hidden;
+  position: relative;
+}
+
+.slick-slider {
+  position: relative;
+  z-index: 1;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+  filter: brightness(60%);
+}
+
+.slide-content {
+  position: absolute;
+  top: 20px; /* Adjust the positioning to be at the top */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  width: 80%; /* Adjust the width as needed */
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+.right{
+  font-weight: bold;
+  font-size: 52px;
+  margin-top: 20px;
+  text-align: right;
+  margin-left: 30px !important;
+
+}
+.slide-content{
+  bottom: 50px;
+}
+
+
+.left{
+  font-weight: bold;
+  margin-top: 110px;
+  font-size: 52px;
+  text-align: left;
+}
+
+.slick-dots {
+  bottom: 10px; /* Adjust as needed */
+}
+

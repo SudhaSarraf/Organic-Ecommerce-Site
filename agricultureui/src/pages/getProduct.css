@@ -1,0 +1,151 @@
+.search-bar {
+  width: 30% !important;
+  /* margin-left: px important; */
+  /* margin-right: 10px !important; */
+  text-align: justify;
+  padding: 10px !important;
+  margin: 20px;
+
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* display.css */
+.product-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    height: 380px;
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .product-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    margin-bottom: 5px;
+  }
+  
+  .vlog-product-container {
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  } 
+  
+  .view{
+    margin-right: 10px;
+  }
+  
+ 
+  .product-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .vlog-product-container {
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .vlog-product-container:nth-child(even) .product-image {
+    order: 2;
+  }
+  
+  .vlog-product-container:nth-child(even) .product-details {
+    order: 1;
+  }
+  
+  .product-image {
+    width: 45%;
+    max-height: 400px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+  }
+  
+  .product-details {
+    flex: 1;
+  }
+  
+  /* Add additional styling as needed */
+  
+  
+  /* Add additional styling as needed */
+/* getProduct.css */
+
+/* Vlog List */
+.vlog-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Vlog Item */
+.vlog-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 140px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.vlog-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Vlog Details */
+.vlog-details {
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.vlog-details h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.vlog-details .content {
+  margin-top: 10px;
+}
+
+.vlog-details p {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+  
+    
+  
+  
